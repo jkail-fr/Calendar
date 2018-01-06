@@ -3,4 +3,3 @@
 
 //Session management
 
-?>

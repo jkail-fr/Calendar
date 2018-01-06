@@ -5,9 +5,11 @@ require_once ('includes/includes.php');
 <!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
+    <?php
+    require_once ('includes/head.php');
+    ?>
     <title>Connect to your whislists</title>
-    <link rel="stylesheet" href="css/style.css">
+
 
 </head>
 <body>
