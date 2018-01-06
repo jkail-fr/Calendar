@@ -5,27 +5,29 @@ People with a key can complete this list with items that the creator will not se
 Possibility to book a present
 
 ## Step 0 : 
-- [ ]Do a proper readme
+- [X] Do a proper readme
+- [X] Restart form scratch (06-01-2018 ->  new ideas and new dev environnement)
 
 ## Authentification
-- [ ] make auth system (log in on same page as list of lists)
-- [] manage that with session
-- [ ] allow user creation
-- [ ] encrypt password in db
-- [ ] generate session for logged in user
+- [ ] Make auth system (log in on same page as list of lists)
+- [ ] Manage that with session
+- [ ] Allow user creation
+- [ ] Encrypt password in db
+- [ ] Generate session for logged in user
 
 ## Nav
-- [ ] authentificated user first page is list of wishlists with a form to create a new one
+- [ ] Authentificated user first page is list of wishlists with a form to create a new one
 - [ ] Do list creation form
-- [ ] header to go back to liist of lists and profile (?)
+- [ ] Delete list with confirmation
+- [ ] Header to go back to liist of lists and profile (?)
 - [ ] Maybe a dropdown menu with all list
 
 ## List 
-- [ ] adding an object to a list
-- [ ] deleting an object from a list (list creator only)
-- [ ] everybody (or firend ?) can add object to a list. they'll appear in a hidden part
+- [ ] Adding an object to a list
+- [ ] Deleting an object from a list (list creator only)
+- [ ] Everybody (or firend ?) can add object to a list. they'll appear in a hidden part
 -- Find a good way to make people add and delete object. keep this in "friend circle". 
-[ ] an item can be "booked" and can be "bought" if booked, nobody else can book it and if bought it'll go to an "archive" part of the list
+[ ] An item can be "booked" and can be "bought" if booked, nobody else can book it and if bought it'll go to an "archive" part of the list
 
 
 ## SQL 
