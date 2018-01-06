@@ -15,7 +15,10 @@ require_once ('includes/includes.php');
 <body>
 <h1>Manage your whishlists</h1>
 <?php
-if (!empty($_POST['username']) AND !empty ($_POST['password']))
+// if user logout
+logout();
+//if user logged in already
+if (!empty($_SESSION['username']) AND !empty ($_SESSION['password']))
 {
 ?>
     <h2>Your whisllist</h2>
@@ -25,7 +28,9 @@ if (!empty($_POST['username']) AND !empty ($_POST['password']))
         <li>... </li>
     </ul>
     <a href="createlist.php">Create a new list</a>
+
 <?php
+    include ('includes/logout.php');
 }
 else
 {
