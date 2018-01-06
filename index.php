@@ -1,3 +1,7 @@
+<?php
+// calling session, db connection and functions
+require_once ('includes/includes.php');
+?>
 <!doctype html>
 <html lang="fr">
 <head>
