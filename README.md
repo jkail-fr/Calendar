@@ -9,6 +9,7 @@ Possibility to book a present
 
 ## Authentification
 - [ ] make auth system (log in on same page as list of lists)
+- [] manage that with session
 - [ ] allow user creation
 - [ ] encrypt password in db
 - [ ] generate session for logged in user
