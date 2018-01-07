@@ -1,7 +1,8 @@
 <?php
+session_start();
 // calling session, db connection and functions
-require_once('includes/includes.php');
 require_once('includes/dbconnect.php');
+require_once('includes/includes.php');
 ?>
 <!doctype html>
 <html lang="fr">

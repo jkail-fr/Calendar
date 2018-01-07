@@ -2,10 +2,9 @@
 // managing session, db connection, function
 
 //Session management
-session_start();
+
 //we create the session value if they exist with the $_POST
-if (!empty($_POST['username']) AND !empty ($_POST['password']))
-{
+if (!empty($_POST['username']) AND !empty ($_POST['password'])) {
     $_SESSION['username'] = $_POST['username'];
     $_SESSION['password'] = $_POST['password'];
 }
@@ -15,8 +14,7 @@ if (!empty($_POST['username']) AND !empty ($_POST['password']))
 function logout()
 {
     // if user is login out
-    if ($_POST['logout'] = 'logout')
-    {
+    if ($_POST['logout'] = 'logout') {
         session_destroy();
     }
 }
