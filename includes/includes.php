@@ -3,11 +3,13 @@
 
 //Session management
 session_start();
+//we create the session value if they exist with the $_POST
 if (!empty($_POST['username']) AND !empty ($_POST['password']))
 {
     $_SESSION['username'] = $_POST['username'];
     $_SESSION['password'] = $_POST['password'];
 }
+
 
 //Function : logout
 function logout()
@@ -18,3 +20,4 @@ function logout()
         session_destroy();
     }
 }
+
