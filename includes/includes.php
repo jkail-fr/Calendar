@@ -16,6 +16,7 @@ function logout()
     // if user is login out
     if ($_POST['logout'] = 'logout') {
         session_destroy();
+        header('Location: index.php');
     }
 }
 
