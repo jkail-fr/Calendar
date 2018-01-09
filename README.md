@@ -6,7 +6,7 @@ Possibility to book a present
 
 in bold are steps currently being worked on
 -- Temp : 
-next step : the DB  table for users
+next step : 
 make the login system works
 encode password 
 
@@ -20,6 +20,7 @@ encode password
 - [ ] Allow user creation
 - [ ] Encrypt password in db
 - [ ] Generate session for logged in user
+- [ ] redirect user that's login out to index.php
 
 ## Nav
 - [ ] **Authentificated user first page is list of wishlists with a form to create a new one**
