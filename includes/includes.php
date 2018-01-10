@@ -30,23 +30,3 @@ function login($login,$pwd)
 if (!empty($_POST['username']) AND !empty ($_POST['password'])) {
     login ($_POST['username'],$_POST['password']);
 }
-*/
-
-//Function : logout
-function logout()
-{
-    // if user is login out
-    if ($_POST['logout'] = 'logout') {
-        session_destroy();
-       return true;
-    }
-}
-/*
-function redirect()
-{
-    $redirection = logout();
-    if ($redirection = true) {
-        header('Location: index.php');
-    }
-}
-*/

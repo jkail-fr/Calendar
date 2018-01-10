@@ -7,7 +7,7 @@ Possibility to book a present
 in bold are steps currently being worked on
 -- Temp : 
 next step : 
-make the login system works
+make the login system works (DB compare)
 encode password 
 
 ## Step 0 : 
@@ -16,10 +16,10 @@ encode password
 
 ## Authentification
 - [ ] **Make auth system (log in on same page as list of lists)**
-- [ ] Manage that with session
-- [ ] Allow user creation
+- [X] Manage that with session
+- [ ] Allow user creation (check for unique username)
 - [ ] Encrypt password in db
-- [ ] Generate session for logged in user
+- [X] Generate session for logged in user
 - [ ] redirect user that's login out to index.php
 
 ## Nav
@@ -28,6 +28,7 @@ encode password
 - [ ] Delete list with confirmation
 - [ ] Header to go back to list of lists and profile and logout (?)
 - [ ] Maybe a dropdown menu with all list
+- [X] Logout system that can be called anywhere and redirect to homepage after disconnecting the user
 
 
 ## List 

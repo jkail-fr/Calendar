@@ -17,9 +17,7 @@ require_once('includes/includes.php');
 <body>
 <h1>Manage your whishlists</h1>
 <?php
-// if user logout
-logout();
-//if user logged in already
+
 if (!empty($_SESSION['username']) AND !empty ($_SESSION['password'])) {
     ?>
     <h2>Your whisllist</h2>
