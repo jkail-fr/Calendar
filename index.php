@@ -29,6 +29,24 @@ if (!empty($_SESSION['username']) AND !empty ($_SESSION['password'])) {
     <a href="createlist.php">Create a new list</a>
 
     <?php
+
+    // db test get mdp en db
+
+    $connect = $bdd->prepare('SELECT password FROM user WHERE username = :username');
+    $connect->execute(array('username' => $_POST['username']));
+    while ($connect_password = $connect->fetch())
+    {
+        echo $connect_password['password'];
+
+    }
+
+
+
+    $connect ->closeCursor();
+
+    ?>
+
+    <?php
     include('includes/logout.php');
 } else {
     ?>

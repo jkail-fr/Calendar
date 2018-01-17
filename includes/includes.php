@@ -30,3 +30,4 @@ function login($login,$pwd)
 if (!empty($_POST['username']) AND !empty ($_POST['password'])) {
     login ($_POST['username'],$_POST['password']);
 }
+*/
