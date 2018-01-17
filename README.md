@@ -7,6 +7,7 @@ Possibility to book a present
 in bold are steps currently being worked on
 -- Temp : 
 next step : 
+generate session if password is okay
 encode password 
 Create account
 
