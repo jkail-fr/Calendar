@@ -7,20 +7,20 @@ Possibility to book a present
 in bold are steps currently being worked on
 -- Temp : 
 next step : 
-make the login system works (DB compare)
 encode password 
+Create account
 
 ## Step 0 : 
 - [X] Do a proper readme
 - [X] Restart form scratch (06-01-2018 ->  new ideas and new dev environnement)
 
 ## Authentification
-- [ ] **Make auth system (log in on same page as list of lists)**
+- [X] Make auth system (log in on same page as list of lists)
 - [X] Manage that with session
-- [ ] Allow user creation (check for unique username)
-- [ ] Encrypt password in db
+- [ ] **Allow user creation (check for unique username)**
+- [ ] **Encrypt password in db**
 - [X] Generate session for logged in user
-- [ ] redirect user that's login out to index.php
+- [X] redirect user that's login out to index.php
 
 ## Nav
 - [ ] **Authentificated user first page is list of wishlists with a form to create a new one**
